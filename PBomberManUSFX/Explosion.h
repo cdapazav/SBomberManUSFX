@@ -1,7 +1,14 @@
 #pragma once
+#include <iostream>
+#include "GameActor.h"
 
-class Explosion {
+using namespace std;
+
+class Explosion : public GameActor 
+{	
 private:
-	
+
 public:
+	//Constructor
+	Explosion(Texture* textura);
 };
